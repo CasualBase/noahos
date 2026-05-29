@@ -1,2 +1,4 @@
-// 今後の拡張用。現在はシンプルにコンソール表示のみ
-console.log("NOAHOS Initialized.");
+// NOAHOS System Script
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("NOAHOS Interface Loaded.");
+});
