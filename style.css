@@ -1,21 +1,41 @@
-:root {
-    --bg: #0a0c10;
-    --card: #161922;
-    --accent: #00d4ff;
-    --text: #e0e0e0;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Noah's ARK GTA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body { background: var(--bg); color: var(--text); font-family: sans-serif; margin: 0; padding: 20px; }
-.card { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #2d3436; }
+    <header class="top-header">
+        <h1>Noah's ARK GTA</h1>
+    </header>
 
-#hero { text-align: center; padding: 50px 0; }
-.btn { display: inline-block; padding: 10px 20px; background: var(--accent); color: #000; text-decoration: none; border-radius: 4px; font-weight: bold; }
-.btn.secondary { background: transparent; border: 1px solid var(--accent); color: var(--accent); margin-left: 10px; }
+    <div class="container">
+        <nav class="sidebar">
+            <h3>DASHBOARD</h3>
+            <ul>
+                <li><a href="#">入国ガイド</a></li>
+                <li><a href="#">サーバールール</a></li>
+                <li><a href="#">コマンド集</a></li>
+                <li><a href="#">お知らせ</a></li>
+            </ul>
+        </nav>
 
-.online { color: #00ff88; font-weight: bold; }
-.link-grid { display: flex; gap: 10px; flex-wrap: wrap; }
-.link-grid a { color: var(--accent); text-decoration: none; padding: 10px; border: 1px solid var(--accent); border-radius: 4px; }
+        <main class="content">
+            <h2>WELCOME</h2>
+            <div class="hero-image">
+                <img src="your-image.jpg" alt="サーバーの風景">
+            </div>
+            <p>ノアグラサーバーは、「上手なRP」よりも「楽しい体験」を大切にする街です。</p>
+            <p><strong>RPに正解は有りません。</strong><br>初心者でも、失敗しても大丈夫です。</p>
+            <p class="message">困ったときは、止まって、話して、相談してください。</p>
+        </main>
+    </div>
 
-footer { text-align: center; font-size: 0.8rem; margin-top: 40px; color: #666; }
+    <footer>
+        <p>『上手じゃなくて良い。楽しいRPを』</p>
+    </footer>
 
-@media (max-width: 600px) { .link-grid { flex-direction: column; } }
+</body>
+</html>
