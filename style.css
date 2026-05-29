@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>Noah's ARK GTA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+:root {
+    --bg: #05070a;
+    --accent: #00d4ff;
+    --text: #ffffff;
+}
 
-    <header class="top-header">
-        <h1>Noah's ARK GTA</h1>
-    </header>
+body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; }
 
-    <div class="container">
-        <nav class="sidebar">
-            <h3>DASHBOARD</h3>
-            <ul>
-                <li><a href="#">入国ガイド</a></li>
-                <li><a href="#">サーバールール</a></li>
-                <li><a href="#">コマンド集</a></li>
-                <li><a href="#">お知らせ</a></li>
-            </ul>
-        </nav>
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('bg.jpg') center/cover;
+}
 
-        <main class="content">
-            <h2>WELCOME</h2>
-            <div class="hero-image">
-                <img src="your-image.jpg" alt="サーバーの風景">
-            </div>
-            <p>ノアグラサーバーは、「上手なRP」よりも「楽しい体験」を大切にする街です。</p>
-            <p><strong>RPに正解は有りません。</strong><br>初心者でも、失敗しても大丈夫です。</p>
-            <p class="message">困ったときは、止まって、話して、相談してください。</p>
-        </main>
-    </div>
+.hero h1 { font-size: 4rem; margin: 0; text-transform: uppercase; letter-spacing: 5px; }
 
-    <footer>
-        <p>『上手じゃなくて良い。楽しいRPを』</p>
-    </footer>
+.btn {
+    padding: 15px 30px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 10px var(--accent);
+}
 
-</body>
-</html>
+.btn:hover { background: var(--accent); color: #000; }
+
+.steps { display: flex; justify-content: center; gap: 20px; padding: 50px; }
