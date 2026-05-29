@@ -1,4 +1,3 @@
-// NOAHOS System Script
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("NOAHOS Interface Loaded.");
+    console.log("Noah's ARK Site Initialized.");
 });
