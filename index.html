@@ -3,48 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOAHOS | CasualBase Project</title>
+    <title>Noah's ARK | Roleplay Server</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>NOAHOS</h1>
-        <p class="status">System Status: Online</p>
+    <header id="hero">
+        <h1>Noah's ARK</h1>
+        <p>新しい人生、ここから始まる。</p>
+        <div class="hero-buttons">
+            <a href="#" class="btn">Join Server</a>
+            <a href="#" class="btn secondary">Discord</a>
+        </div>
     </header>
 
     <main>
-        <section id="about">
+        <section id="status" class="card">
+            <h2>Server Status</h2>
+            <p><strong>Status:</strong> <span class="online">ONLINE</span></p>
+            <p><strong>Players:</strong> 32/64</p>
+            <p><strong>Version:</strong> v1.2.0</p>
+        </section>
+
+        <section id="about" class="card">
             <h2>About</h2>
-            <p>CasualBaseが構築する、次世代仮想プラットフォーム「NOAHOS」。システム統合と最適化により、洗練されたサーバー体験を提供します。</p>
+            <p>Noah's ARKは、ロールプレイの自由度を重視したFiveMサーバーです。リアルな生活から非日常の犯罪まで、あなたの選択が物語を作ります。</p>
         </section>
 
-        <section id="features">
-            <h2>Features</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <h3>Unified Hub</h3>
-                    <p>全機能を統合した直感的なインターフェース。</p>
-                </article>
-                <article class="card">
-                    <h3>High Performance</h3>
-                    <p>Qboxフレームワークによる高速・軽量な処理。</p>
-                </article>
-                <article class="card">
-                    <h3>Scalability</h3>
-                    <p>都市の成長に合わせて拡張可能なシステム基盤。</p>
-                </article>
+        <section id="rules" class="card">
+            <h2>Rules</h2>
+            <ul>
+                <li>・RDM/VDMの禁止</li>
+                <li>・メタゲーミングの禁止</li>
+                <li>・コミュニティへの敬意</li>
+            </ul>
+        </section>
+
+        <section id="news" class="card">
+            <h2>News</h2>
+            <p>2026/05/29: 新規ジョブ追加アップデートを実施しました。</p>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <div class="link-grid">
+                <a href="#">Discord</a>
+                <a href="#">Join Guide</a>
+                <a href="#">Rules Detail</a>
             </div>
-        </section>
-
-        <section id="world">
-            <h2>World</h2>
-            <p>「Noah's ARK GTA」の心臓部として、全てのロジックを管理・監視する中枢システム。</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 CasualBase Project</p>
+        <p>&copy; 2026 Noah's ARK - CasualBase Project</p>
     </footer>
 
     <script src="script.js"></script>
